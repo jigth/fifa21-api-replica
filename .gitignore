@@ -1,3 +1,5 @@
 node_modules
 .env
 .pnpm-debug*
+build
+dist
