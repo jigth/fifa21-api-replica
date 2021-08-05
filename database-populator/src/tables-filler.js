@@ -1,8 +1,10 @@
 const axios = require('axios');
 const Team = require('./models/Team');
 const Player = require('./models/Player');
+const { logEachTwentyIterations } = require('./utils/log');
+const { flattenArray, clearArrayAndReturnIt } = require('./utils/array');
 
-const getPlayersData = (currentPageData) => {
+function getPlayersData (currentPageData) {
     const playersList = currentPageData.items.map( item => {
         return {
             common_name: item.commonName,
@@ -21,7 +23,7 @@ const getPlayersData = (currentPageData) => {
 }
 
 
-const getTeamsData = (currentPageData) => {
+function getTeamsData (currentPageData) {
     const teamsList = currentPageData.items.map(item => {
         return {
             name: item.club.name,
@@ -32,20 +34,35 @@ const getTeamsData = (currentPageData) => {
     return teamsList;
 }
 
-// UTILITY FUNCTIONS BEGIN
-const logEachTwentyIterations = (currentIterationValue) => {
-    if (currentIterationValue % 20 === 0 || currentIterationValue === 1) {
-        console.log(`Querying the page ${currentIterationValue}...`);
+async function saveEachTwentyIterations (
+    teams,
+    players,
+    currentIterationValue
+) {
+    if (currentIterationValue % 20 === 0) {
+        console.log('Saving the collected results until now...');
+        teams = flattenArray(teams);
+        players = flattenArray(players);
+
+        const teamsData = clearArrayAndReturnIt( teams );
+        const playersData = clearArrayAndReturnIt( players );
+
+        try {
+            await populateTables(teamsData, playersData);
+        } catch (error) {
+            console.error('An error ocurred while populating data\n', error); 
+        }
+        console.log('Done!\n');
     }
 }
 
-const getURLData = async (urlToRequest) => {
+async function getURLData(urlToRequest) {
     let { data } = await axios.get (urlToRequest);
     return data;
 }
 // UTILITY FUNCTIONS END
 
-const getDataUntilLastPage = async (loopData, API_BASE_URL) => {
+async function getDataAndSaveIt (loopData, API_BASE_URL) {
         let { 
             currentPageData,
             currentPageNumber, 
@@ -53,14 +70,15 @@ const getDataUntilLastPage = async (loopData, API_BASE_URL) => {
             pageItemsCount 
         } = loopData;
 
-        let teamsData = [],
-            playersData = [];
+        let teams = [],
+            players = [];
 
         while (pageItemsCount > 0) { 
             logEachTwentyIterations(currentPageNumber);
+            saveEachTwentyIterations(teams, players, currentPageNumber);
 
-            teamsData.push ( getTeamsData(currentPageData) );
-            playersData.push ( getPlayersData(currentPageData) );
+            teams.push ( getTeamsData(currentPageData) );
+            players.push ( getPlayersData(currentPageData) );
 
             ++ currentPageNumber;
             currentURL = API_BASE_URL + currentPageNumber;
@@ -68,19 +86,9 @@ const getDataUntilLastPage = async (loopData, API_BASE_URL) => {
             currentPageData = await getURLData (currentURL);
             pageItemsCount = currentPageData.count;
         }
-
-        return { teamsData, playersData }
 }
 
-function formatTeamsData(teamsData) {
-    teamsData 
-}
-
-function formatPlayersData(playersData) {
-
-}
-
-const processAPIData = async (API_BASE_URL, initialPage=1) => {
+async function processAPIData (API_BASE_URL, initialPage=1) {
     try {
         console.log("Starting to process the FIFA 21 API...");
 
@@ -91,23 +99,18 @@ const processAPIData = async (API_BASE_URL, initialPage=1) => {
 
         let loopData = { currentPageData, currentPageNumber, currentURL, pageItemsCount };
 
-        let { teamsData, playersData } = await getDataUntilLastPage(
+        let { teamsData, playersData } = await getDataAndSaveIt(
             loopData,
             API_BASE_URL
         );
 
-        // format playersData and teamsData to one dimensional array.
-        teamsData = [].concat(...teamsData);
-        playersData = [].concat(...playersData);
-
-        return { teamsData, playersData };
-
+        console.log("All tables were populated succesfully...");
     } catch (error) {
         console.error('An error ocurred while requesting the FIFA21 API', error);
     }
 }
 
-const populatePlayersTable = async (playersModel, playersData) => {
+async function populatePlayersTable (playersModel, playersData) {
     playersData.forEach( async (playerData) => {
         try {
             await playersModel.create(playerData);
@@ -117,7 +120,7 @@ const populatePlayersTable = async (playersModel, playersData) => {
     });
 }
 
-const populateTeamsTable = async (teamsModel, teamsData) => {
+async function populateTeamsTable (teamsModel, teamsData) {
     teamsData.forEach( async (teamData) => {
         try {
             await teamsModel.create(teamData);
@@ -127,13 +130,11 @@ const populateTeamsTable = async (teamsModel, teamsData) => {
     });
 }
 
-const populateTables = async (tablesDataObjects) => {
+async function populateTables (teamsData, playersData) {
     console.log("Populating tables...");
-    const { teamsData, playersData } = tablesDataObjects;
     try {
         await populatePlayersTable (Player, playersData);
         await populateTeamsTable (Team, teamsData);
-        console.log("All tables were populated succesfully...");
         return true;
     } catch (error) {
         console.error(error);
