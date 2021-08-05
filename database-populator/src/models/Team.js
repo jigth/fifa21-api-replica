@@ -1,6 +1,8 @@
 const { DataTypes } = require('sequelize');
+const { sequelize } = require('../database');
+const Player = require('./Player');
 
-module.exports = (sequelize) => sequelize.define('Team', {
+const Team = sequelize.define('Team', {
     team_id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -10,22 +12,13 @@ module.exports = (sequelize) => sequelize.define('Team', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    page: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    total_pages: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    items: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    total_items: {
-        type: DataTypes.INTEGER,
-        allowNull: false
+    abbr_name: {
+        type: DataTypes.STRING,
     },
 }, {
-    // Other model options go here
+    timestamps: false
 });
+
+Team.hasMany(Player, { foreignKey: 'team_id' });
+
+module.exports = Team;

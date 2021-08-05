@@ -1,6 +1,7 @@
 const { DataTypes } = require('sequelize');
+const { sequelize } = require('../database');
 
-module.exports = (sequelize) => sequelize.define('Player', {
+const Player = sequelize.define('Player', {
     common_name: {
         type: DataTypes.STRING,
         allowNull: false
@@ -29,6 +30,14 @@ module.exports = (sequelize) => sequelize.define('Player', {
     height: {
         type: DataTypes.INTEGER,
     },
+    original_source_id: {
+        type: DataTypes.STRING,
+    },
+    team_id: {
+        type: DataTypes.INTEGER,
+    },
 }, {
-    // Other model options go here
+    timestamps: false
 });
+
+module.exports = Player;

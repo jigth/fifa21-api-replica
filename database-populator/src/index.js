@@ -1,21 +1,26 @@
 require('dotenv').config();  // Load environment variables
 
-const {
-    connectToDatabaseAndReturnIt,
-    createTables
-} = require('./tables-setter');
+const { connectToDatabase, sequelize } = require('./database');
+
+const { 
+    processAPIData,
+    populateTables,
+} = require('./tables-filler');
 
 const main = async () => {
-    const databaseName = process.env.DATABASE_NAME;
-    const username  = process.env.USERNAME;
-    const password = process.env.PASSWORD;
-    const sequelize = await connectToDatabaseAndReturnIt(
-        databaseName,
-        username,
-        password
-    );
 
-    createTables(sequelize);
+    try {
+        await connectToDatabase();
+        sequelize.sync();
+        const API_BASE_URL = process.env.API_BASE_URL 
+            || 'https://www.easports.com/fifa/ultimate-team/api/fut/item?page=';
+
+        const tablesDataObjects = await processAPIData(API_BASE_URL, 1);
+
+        await populateTables (tablesDataObjects);
+    } catch (error) {
+        console.error (error);
+    }
 }
 
 main();
