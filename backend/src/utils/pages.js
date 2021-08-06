@@ -13,4 +13,6 @@ function getPageFromArray(array, page, resultsPerPage) {
     }
 }
 
-module.exports = getPageFromArray;
+module.exports = {
+    getPageFromArray
+};

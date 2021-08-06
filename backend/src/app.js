@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 
 const players = require('./routes/players');
+const teamPlayers = require('./routes/teamPlayers');
 const teams = require('./routes/teams');
 
 
@@ -18,6 +19,7 @@ app.use( express.json() );
 
 // Routes
 app.use(BASE_API_ROUTE + 'players', players);
+app.use(BASE_API_ROUTE + 'team', teamPlayers);
 app.use(BASE_API_ROUTE + 'teams', teams);
 
 

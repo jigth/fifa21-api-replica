@@ -40,4 +40,6 @@ const Player = sequelize.define('Player', {
     timestamps: false
 });
 
-module.exports = Player;
+module.exports = {
+    Player
+};

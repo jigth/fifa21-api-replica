@@ -1,7 +1,7 @@
 const playerController = {};
-const Player = require('../models/Player');
+const { Player } = require('../models/Player');
 const { Op } = require('sequelize');
-const getPageFromArray = require('../utils/pages');
+const { getPageFromArray } = require('../utils/pages');
 
 playerController.getPlayersByName = async (req, res) => {
     const { search, order, page } = req.query;
@@ -16,7 +16,7 @@ playerController.getPlayersByName = async (req, res) => {
         attributes: [['common_name', 'name'], 'position', 'nation', 'team_id'],
         where: {
             common_name: {
-                [Op.like]: `%${search}%`
+                [Op.iLike]: `%${search}%`
             }
         },
         order: [
@@ -41,17 +41,7 @@ playerController.getPlayersByName = async (req, res) => {
     res.json(playersResponse);
 }
 
-playerController.getPlayersByTeam = (req, res) => {
-    const { name, page } = req.body;
 
-    console.log(`Searching player in the team ${name} in the page ${page}`);
-
-    res.json({
-        message: "Search by TEAM was done succesfully",
-        name,
-        page
-    });
-}
-
-
-module.exports = playerController;
+module.exports = {
+    playerController
+};

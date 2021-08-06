@@ -1,10 +1,8 @@
 const router = require('express').Router();
 
-const teamController = require('../controllers/team.controller');
+const { teamController } = require('../controllers/team.controller');
 
-router.route('/')
-    .get( teamController.getAllTeams )
-    .post( teamController.getTeamsByName );
-
+router.get( '/', teamController.getAllTeams );
+router.get('/by-name', teamController.getTeamsByName );
 
 module.exports = router;

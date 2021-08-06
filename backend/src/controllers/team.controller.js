@@ -1,26 +1,64 @@
 const teamController = {};
+const { Team } = require('../models/Team');
+const { getPageFromArray } = require('../utils/pages');
+const { Op } = require('sequelize');
 
 
-teamController.getAllTeams = (req, res) => {
-    const exampleQueryResult = [
-        { name: 'Real Madrid', page: 2 },
-        { name: 'Barcelona', page: 5 },
-        { name: 'Juventus', page: 1 },
-    ];
+teamController.getAllTeams = async function (req, res) {
+    const { page } = req.query;
+    const resultsPerPage = parseInt(process.env.RESULTS_PER_PAGE) || 10;
 
-    res.json({ items: exampleQueryResult });
+    const teams = await Team.findAll({
+        attributes: ['team_id', 'name', 'abbr_name'],
+    });
+
+    const totalPages = teams.length >= resultsPerPage ? 
+                Math.ceil ( teams.length / resultsPerPage )
+              : teams.length;
+
+    const thePage = parseInt(page) || 1;
+    const teamsResponse = {
+        'Page': thePage,
+        'totalPages': totalPages,
+        'Items': resultsPerPage,
+        'totalItems': teams.length,
+        'Teams': getPageFromArray( teams, thePage, resultsPerPage )
+    };
+    res.json(teamsResponse);
 }
 
-teamController.getTeamsByName = (req, res) => {
-    const { Name } = req.body;
+teamController.getTeamsByName = async function (req, res) {
+    const { name, page } = req.query;
+    const resultsPerPage = parseInt(process.env.RESULTS_PER_PAGE) || 10;
 
-    const exampleQueryResult = [
-        { name: 'Real Madrid', page: 2 },
-        { name: 'Atletico de Madrid', page: 5 },
-    ];
+    const teams = await Team.findAll({
+        attributes: ['team_id', 'name', 'abbr_name'],
+        where: {
+            name: {
+                [Op.iLike]: `%${name}%`
+            }
+        }
+    });
 
-    res.json({ items: exampleQueryResult, Name });
+    const teamsData = teams.map(team => team.dataValues);
+    const totalPages = teamsData.length >= resultsPerPage ? 
+                Math.ceil ( teamsData.length / resultsPerPage )
+              : teamsData.length;
+
+    const thePage = parseInt(page) || 1;
+    const teamsResponse = {
+        'Page': thePage,
+        'totalPages': totalPages,
+        'Items': resultsPerPage,
+        'totalItems': teamsData.length,
+        'Teams': getPageFromArray( teamsData, thePage, resultsPerPage )
+    };
+
+    res.json(teamsResponse);
 }
 
 
-module.exports = teamController;
+
+module.exports = {
+    teamController
+};
