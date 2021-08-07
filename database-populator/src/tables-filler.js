@@ -1,21 +1,23 @@
 const axios = require('axios');
-const Team = require('./models/Team');
-const Player = require('./models/Player');
+const { Team } = require('./models/Team');
+const { Player } = require('./models/Player');
 const { logEachTwentyIterations } = require('./utils/log');
 const { flattenArray, clearArrayAndReturnIt } = require('./utils/array');
+const { Op } = require('sequelize');
 
 function getPlayersData (currentPageData) {
-    const playersList = currentPageData.items.map( item => {
-        return {
-            common_name: item.commonName,
-            first_name: item.firstName,
-            last_name: item.lastName,
-            position: item.position,
-            nation: item.nation.name,
-            age: item.age,
-            weight: item.weight,
-            height: item.height,
-            original_source_id: item.id
+    const playersList = currentPageData.items.map( player => {
+    return {
+            player_id: player.id,
+            common_name: player.commonName,
+            first_name: player.firstName,
+            last_name: player.lastName,
+            position: player.position,
+            nation: player.nation.name,
+            age: player.age,
+            weight: player.weight,
+            height: player.height,
+            team_id: player.club.id
         };
     });
 
@@ -24,10 +26,11 @@ function getPlayersData (currentPageData) {
 
 
 function getTeamsData (currentPageData) {
-    const teamsList = currentPageData.items.map(item => {
+    const teamsList = currentPageData.items.map(player => {
         return {
-            name: item.club.name,
-            abbr_name: item.club.abbrName
+            team_id: player.club.id,
+            name: player.club.name,
+            abbr_name: player.club.abbrName
         };
     });
 
@@ -99,7 +102,7 @@ async function processAPIData (API_BASE_URL, initialPage=1) {
 
         let loopData = { currentPageData, currentPageNumber, currentURL, pageItemsCount };
 
-        let { teamsData, playersData } = await getDataAndSaveIt(
+        await getDataAndSaveIt(
             loopData,
             API_BASE_URL
         );
@@ -111,9 +114,29 @@ async function processAPIData (API_BASE_URL, initialPage=1) {
 }
 
 async function populatePlayersTable (playersModel, playersData) {
-    playersData.forEach( async (playerData) => {
+    playersData.forEach( async (player) => {
         try {
-            await playersModel.create(playerData);
+            await playersModel.findOrCreate({
+                where: {
+                    [Op.and]: {
+                        first_name: player.first_name,
+                        last_name: player.last_name,
+                        team_id: player.team_id
+                    }
+                },
+                defaults: {
+                    common_name: player.common_name,
+                    first_name: player.first_name,
+                    last_name: player.last_name,
+                    position: player.position,
+                    nation: player.nation,
+                    age: player.age,
+                    weight: player.weight,
+                    height: player.height,
+                    player_id: player.player_id,
+                    team_id: player.team_id
+                }
+            });
         } catch (error) {
             console.error (error);
         }
@@ -121,9 +144,16 @@ async function populatePlayersTable (playersModel, playersData) {
 }
 
 async function populateTeamsTable (teamsModel, teamsData) {
-    teamsData.forEach( async (teamData) => {
+    teamsData.forEach( async (team) => {
         try {
-            await teamsModel.create(teamData);
+            await teamsModel.findOrCreate({
+                where: { team_id: team.team_id },
+                defaults: {
+                    name: team.name,
+                    abbr_name: team.abbr_name,
+                    team_id: team.team_id
+                }
+            });
         } catch (error) {
             console.error (error);
         }
@@ -133,8 +163,10 @@ async function populateTeamsTable (teamsModel, teamsData) {
 async function populateTables (teamsData, playersData) {
     console.log("Populating tables...");
     try {
-        await populatePlayersTable (Player, playersData);
+        // The order in which the following 2 methos are being
+        // called is important. Else a 'create' error could ocurr.
         await populateTeamsTable (Team, teamsData);
+        await populatePlayersTable (Player, playersData);
         return true;
     } catch (error) {
         console.error(error);

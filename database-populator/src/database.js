@@ -3,13 +3,16 @@ const { Sequelize } = require('sequelize');
 const databaseName = process.env.DATABASE_NAME;
 const username  = process.env.USERNAME;
 const password = process.env.PASSWORD;
+const logging = process.env.LOG_QUERIES.toLowerCase() === 'true'
+                ? true
+                : false;
 
-console.log( {databaseName}, {username}, {password} );
+console.log({databaseName});
 
 const sequelize = new Sequelize(databaseName, username, password, {
     host: process.env.DATABASE_HOST || 'localhost',
     dialect: process.env.DATABASE_DIALECT || 'postgres',
-    logging: false
+    logging
 });
 
 async function connectToDatabase () {

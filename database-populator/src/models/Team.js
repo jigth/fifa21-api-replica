@@ -1,6 +1,6 @@
 const { DataTypes } = require('sequelize');
 const { sequelize } = require('../database');
-const Player = require('./Player');
+const { Player } = require('./Player');
 
 const Team = sequelize.define('Team', {
     team_id: {
@@ -21,4 +21,6 @@ const Team = sequelize.define('Team', {
 
 Team.hasMany(Player, { foreignKey: 'team_id' });
 
-module.exports = Team;
+module.exports = {
+    Team
+};

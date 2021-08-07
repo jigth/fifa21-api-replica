@@ -12,9 +12,8 @@ const main = async () => {
         const API_BASE_URL = process.env.API_BASE_URL 
             || 'https://www.easports.com/fifa/ultimate-team/api/fut/item?page=';
 
-        await processAPIData(API_BASE_URL);
-        //const tablesDataObjects = await processAPIData(API_BASE_URL);
-        //await populateTables (tablesDataObjects);
+        const initialIteration = process.env.INITIAL_ITERATION || 1;
+        await processAPIData(API_BASE_URL, initialIteration);
     } catch (error) {
         console.error (error);
     }
