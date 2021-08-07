@@ -2,9 +2,12 @@ const { DataTypes } = require('sequelize');
 const { sequelize } = require('../database');
 
 const Player = sequelize.define('Player', {
+    player_id: {
+        type: DataTypes.STRING,
+        primaryKey: true
+    },
     common_name: {
         type: DataTypes.STRING,
-        allowNull: false
     },
     first_name: {
         type: DataTypes.STRING,
@@ -12,6 +15,7 @@ const Player = sequelize.define('Player', {
     },
     last_name: {
         type: DataTypes.STRING,
+        allowNull: false
     },
     position: {
         type: DataTypes.STRING,
@@ -29,9 +33,6 @@ const Player = sequelize.define('Player', {
     },
     height: {
         type: DataTypes.INTEGER,
-    },
-    original_source_id: {
-        type: DataTypes.STRING,
     },
     team_id: {
         type: DataTypes.INTEGER,

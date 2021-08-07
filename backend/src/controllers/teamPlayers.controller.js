@@ -2,20 +2,10 @@ const { Op } = require('sequelize');
 const { Team } = require('../models/Team');
 const { Player } = require('../models/Player');
 const { getPageFromArray } = require('../utils/pages');
+const { getPlayerName } = require('../utils/players');
 
 const teamPlayersController = {};
 
-function nameIsNotEmpty(name) {
-    return name.length > 0;
-}
-
-function getPlayerName(common_name, first_name, last_name) {
-    const playerName = nameIsNotEmpty(common_name) 
-                    ? common_name
-                    : `${first_name} ${last_name}`;
-
-    return playerName;
-}
 
 teamPlayersController.getPlayersByTeam = async function (req, res) {
     const { Name, Page } = req.body;
