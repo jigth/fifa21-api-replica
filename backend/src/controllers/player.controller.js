@@ -20,7 +20,9 @@ function formatPlayerResponse(player) {
 }
 
 playerController.getPlayersByName = async (req, res) => {
-    const { search, order, page } = req.query;
+    const { order, page } = req.query;
+    let { search } = req.query;
+    if (search === undefined) search = '';
 
     const isValidOrder = order 
                     && ['ASC', 'DESC'].includes( order.toUpperCase() ) ;
