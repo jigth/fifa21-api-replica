@@ -1,0 +1,637 @@
+{"team_id":45,"name":"Juventus","abbr_name":"Juventus"}
+{"team_id":241,"name":"FC Barcelona","abbr_name":"Barcelona"}
+{"team_id":243,"name":"Real Madrid","abbr_name":"R. Madrid"}
+{"team_id":112658,"name":"Icons","abbr_name":"Icons"}
+{"team_id":73,"name":"Paris Saint-Germain","abbr_name":"Paris"}
+{"team_id":5,"name":"Chelsea","abbr_name":"Chelsea"}
+{"team_id":21,"name":"FC Bayern München","abbr_name":"Bayern"}
+{"team_id":22,"name":"Borussia Dortmund","abbr_name":"Dortmund"}
+{"team_id":10,"name":"Manchester City","abbr_name":"Man City"}
+{"team_id":11,"name":"Manchester United","abbr_name":"Man Utd"}
+{"team_id":9,"name":"Liverpool","abbr_name":"Liverpool"}
+{"team_id":240,"name":"Atlético Madrid","abbr_name":"Atlético"}
+{"team_id":1837,"name":"Sampdoria","abbr_name":"Sampdoria"}
+{"team_id":18,"name":"Tottenham Hotspur","abbr_name":"Spurs"}
+{"team_id":1,"name":"Arsenal","abbr_name":"Arsenal"}
+{"team_id":48,"name":"Napoli","abbr_name":"Napoli"}
+{"team_id":245,"name":"Ajax","abbr_name":"Ajax"}
+{"team_id":65,"name":"LOSC Lille","abbr_name":"LOSC Lille"}
+{"team_id":113160,"name":"Sagan Tosu","abbr_name":"Tosu"}
+{"team_id":697,"name":"LA Galaxy","abbr_name":"LA Galaxy"}
+{"team_id":66,"name":"Olympique Lyonnais","abbr_name":"OL"}
+{"team_id":1824,"name":"Eintracht Frankfurt","abbr_name":"Frankfurt"}
+{"team_id":32,"name":"Bayer 04 Leverkusen","abbr_name":"Leverkusen"}
+{"team_id":39,"name":"Atalanta","abbr_name":"Atalanta"}
+{"team_id":112996,"name":"Los Angeles Football Club","abbr_name":"LAFC"}
+{"team_id":23,"name":"Borussia Mönchengladbach","abbr_name":"M'gladbach"}
+{"team_id":112172,"name":"RB Leipzig","abbr_name":"RB Leipzig"}
+{"team_id":47,"name":"Milan","abbr_name":"Milan"}
+{"team_id":101146,"name":"Vissel Kobe","abbr_name":"Kobe"}
+{"team_id":246,"name":"Feyenoord","abbr_name":"Feyenoord"}
+{"team_id":44,"name":"Inter","abbr_name":"Inter"}
+{"team_id":450,"name":"RC Celta","abbr_name":"Celta"}
+{"team_id":481,"name":"Sevilla FC","abbr_name":"Sevilla"}
+{"team_id":110781,"name":"Club León","abbr_name":"León"}
+{"team_id":76,"name":"RC Strasbourg Alsace","abbr_name":"Strasbourg"}
+{"team_id":237,"name":"Sporting CP","abbr_name":"Sporting"}
+{"team_id":234,"name":"SL Benfica","abbr_name":"Benfica"}
+{"team_id":236,"name":"FC Porto","abbr_name":"Porto"}
+{"team_id":325,"name":"Galatasaray SK","abbr_name":"Galatasar."}
+{"team_id":46,"name":"Lazio","abbr_name":"Lazio"}
+{"team_id":1860,"name":"Getafe CF","abbr_name":"Getafe"}
+{"team_id":1970,"name":"Tigres U.A.N.L.","abbr_name":"Tigres"}
+{"team_id":54,"name":"Torino","abbr_name":"Torino"}
+{"team_id":219,"name":"Olympique de Marseille","abbr_name":"OM"}
+{"team_id":224,"name":"Nîmes Olympique","abbr_name":"Nîmes OL"}
+{"team_id":483,"name":"Villarreal CF","abbr_name":"Villarreal"}
+{"team_id":461,"name":"Valencia CF","abbr_name":"Valencia"}
+{"team_id":72,"name":"OGC Nice","abbr_name":"OGC Nice"}
+{"team_id":10029,"name":"TSG 1899 Hoffenheim","abbr_name":"Hoffenheim"}
+{"team_id":191,"name":"FC Red Bull Salzburg","abbr_name":"Salzburg"}
+{"team_id":111339,"name":"Kasimpaşa SK","abbr_name":"Kasimpaşa"}
+{"team_id":111768,"name":"Beijing Guoan","abbr_name":"B. Guoan"}
+{"team_id":112139,"name":"Al Nassr","abbr_name":"Al Nassr"}
+{"team_id":38,"name":"SV Werder Bremen","abbr_name":"Bremen"}
+{"team_id":52,"name":"Roma","abbr_name":"Roma"}
+{"team_id":19,"name":"West Ham United","abbr_name":"West Ham"}
+{"team_id":55,"name":"Udinese","abbr_name":"Udinese"}
+{"team_id":247,"name":"PSV","abbr_name":"PSV"}
+{"team_id":7,"name":"Everton","abbr_name":"Everton"}
+{"team_id":101085,"name":"Racing Club","abbr_name":"Racing Club"}
+{"team_id":327,"name":"Beşiktaş JK","abbr_name":"Beşiktaş"}
+{"team_id":101014,"name":"Medipol Başakşehir FK","abbr_name":"Başakşehir"}
+{"team_id":110374,"name":"Fiorentina","abbr_name":"Fiorentina"}
+{"team_id":112429,"name":"Guangzhou R&F FC","abbr_name":"Guangzhou"}
+{"team_id":448,"name":"Athletic Club","abbr_name":"Athletic"}
+{"team_id":110062,"name":"Girona FC","abbr_name":"Girona"}
+{"team_id":819,"name":"FC København","abbr_name":"København"}
+{"team_id":101047,"name":"FC Dynamo Kyiv","abbr_name":"D. Kyiv"}
+{"team_id":1877,"name":"Buenos Aires","abbr_name":"B. Aires"}
+{"team_id":112162,"name":"Jiangsu Suning FC","abbr_name":"Jiangsu FC"}
+{"team_id":1796,"name":"Burnley","abbr_name":"Burnley"}
+{"team_id":688,"name":"D.C. United","abbr_name":"D.C. United"}
+{"team_id":112092,"name":"Nagoya Grampus","abbr_name":"Nagoya"}
+{"team_id":449,"name":"Real Betis","abbr_name":"R. Betis"}
+{"team_id":457,"name":"Real Sociedad","abbr_name":"R.Sociedad"}
+{"team_id":110147,"name":"Pachuca","abbr_name":"Pachuca"}
+{"team_id":1799,"name":"Crystal Palace","abbr_name":"C. Palace"}
+{"team_id":31,"name":"1. FC Köln","abbr_name":"Köln"}
+{"team_id":452,"name":"RCD Espanyol","abbr_name":"Espanyol"}
+{"team_id":1943,"name":"Bournemouth","abbr_name":"B’mouth"}
+{"team_id":74,"name":"Stade Rennais FC","abbr_name":"SRFC"}
+{"team_id":694,"name":"Colorado Rapids","abbr_name":"Colorado"}
+{"team_id":110,"name":"Wolverhampton Wanderers","abbr_name":"Wolves"}
+{"team_id":111839,"name":"Guangzhou Evergrande Taobao","abbr_name":"Guangzhou"}
+{"team_id":1876,"name":"River Plate","abbr_name":"River Plate"}
+{"team_id":101100,"name":"Atlético Nacional","abbr_name":"Nacional"}
+{"team_id":605,"name":"Al Hilal","abbr_name":"Al Hilal"}
+{"team_id":69,"name":"AS Monaco Football Club SA","abbr_name":"AS Monaco"}
+{"team_id":70,"name":"Montpellier Hérault SC","abbr_name":"MHSC"}
+{"team_id":112378,"name":"Dalian Yifang FC","abbr_name":"Dalian Y."}
+{"team_id":112540,"name":"Shanghai SIPG FC","abbr_name":"SIPG FC"}
+{"team_id":86,"name":"Rangers FC","abbr_name":"Rangers"}
+{"team_id":112885,"name":"Atlanta United","abbr_name":"Atlanta"}
+{"team_id":393,"name":"PAOK","abbr_name":"PAOK"}
+{"team_id":190,"name":"Brescia","abbr_name":"Brescia"}
+{"team_id":436,"name":"Trabzonspor","abbr_name":"Trabzon."}
+{"team_id":110975,"name":"Universidad Católica","abbr_name":"Católica"}
+{"team_id":8,"name":"Leeds United","abbr_name":"Leeds"}
+{"team_id":1819,"name":"AS Saint-Étienne","abbr_name":"ASSE"}
+{"team_id":101101,"name":"Junior FC","abbr_name":"Junior"}
+{"team_id":1879,"name":"Club América","abbr_name":"América"}
+{"team_id":95,"name":"Leicester City","abbr_name":"Leicester"}
+{"team_id":266,"name":"Slavia Praha","abbr_name":"Slavia"}
+{"team_id":112983,"name":"Tianjin Quanjian FC","abbr_name":"Tainjin Q."}
+{"team_id":101103,"name":"Independiente Medellín","abbr_name":"Medellín"}
+{"team_id":100765,"name":"Lokomotiv Moscow","abbr_name":"Lokomotiv"}
+{"team_id":231,"name":"Club Brugge KV","abbr_name":"Cl. Brugge"}
+{"team_id":112393,"name":"Al Taawoun","abbr_name":"Al Taawoun"}
+{"team_id":1952,"name":"Hull City","abbr_name":"Hull City"}
+{"team_id":13,"name":"Newcastle United","abbr_name":"Newcastle"}
+{"team_id":326,"name":"Fenerbahçe SK","abbr_name":"Fenerbahçe"}
+{"team_id":111817,"name":"Paris FC","abbr_name":"Paris FC"}
+{"team_id":111651,"name":"Toronto FC","abbr_name":"Toronto FC"}
+{"team_id":34,"name":"FC Schalke 04","abbr_name":"Schalke"}
+{"team_id":111974,"name":"Sassuolo","abbr_name":"Sassuolo"}
+{"team_id":110980,"name":"CD Viñazur","abbr_name":"CD Viñazur"}
+{"team_id":111722,"name":"Deportes Tolima","abbr_name":"Tolima"}
+{"team_id":650,"name":"ADO Den Haag","abbr_name":"ADO"}
+{"team_id":1477,"name":"Jeonbuk Hyundai Motors","abbr_name":"Jeonbuk"}
+{"team_id":112791,"name":"SPAL","abbr_name":"SPAL"}
+{"team_id":110955,"name":"Shanghai Greenland Shenhua FC","abbr_name":"Shanghai"}
+{"team_id":111678,"name":"Club Tijuana","abbr_name":"Tijuana"}
+{"team_id":36,"name":"VfB Stuttgart","abbr_name":"Stuttgart"}
+{"team_id":2,"name":"Aston Villa","abbr_name":"A. Villa"}
+{"team_id":112606,"name":"Orlando City Soccer Club","abbr_name":"Orlando"}
+{"team_id":50,"name":"Parma","abbr_name":"Parma"}
+{"team_id":175,"name":"VfL Wolfsburg","abbr_name":"Wolfsburg"}
+{"team_id":78,"name":"Celtic","abbr_name":"Celtic"}
+{"team_id":435,"name":"Neuchâtel Xamax","abbr_name":"Neuchâtel"}
+{"team_id":919,"name":"SK Brann","abbr_name":"Brann"}
+{"team_id":1792,"name":"Norwich City","abbr_name":"Norwich"}
+{"team_id":378,"name":"Stade Brestois 29","abbr_name":"Brest"}
+{"team_id":71,"name":"FC Nantes","abbr_name":"FC Nantes"}
+{"team_id":1925,"name":"Brentford","abbr_name":"Brentford"}
+{"team_id":900,"name":"BSC Young Boys","abbr_name":"Young Boys"}
+{"team_id":101059,"name":"Shakhtar Donetsk","abbr_name":"Shakhtar"}
+{"team_id":1923,"name":"Luton Town","abbr_name":"Luton Town"}
+{"team_id":1530,"name":"Angers SCO","abbr_name":"Angers SCO"}
+{"team_id":111139,"name":"Impact Montréal","abbr_name":"Impact"}
+{"team_id":110832,"name":"Granada CF","abbr_name":"Granada"}
+{"team_id":110556,"name":"Genoa","abbr_name":"Genoa"}
+{"team_id":111710,"name":"Defensa y Justicia","abbr_name":"Defensa"}
+{"team_id":1795,"name":"Watford","abbr_name":"Watford"}
+{"team_id":111928,"name":"San Jose Earthquakes","abbr_name":"San Jose"}
+{"team_id":112387,"name":"Al Ahli","abbr_name":"Al Ahli"}
+{"team_id":1794,"name":"Sheffield United","abbr_name":"Sheff Utd"}
+{"team_id":492,"name":"SV Wehen-Wiesbaden","abbr_name":"Wehen"}
+{"team_id":1909,"name":"Vitesse","abbr_name":"Vitesse"}
+{"team_id":111674,"name":"Al Shabab","abbr_name":"Al Shabab"}
+{"team_id":607,"name":"Al Ittihad","abbr_name":"Al Ittihad"}
+{"team_id":111140,"name":"Portland Timbers","abbr_name":"Timbers"}
+{"team_id":106,"name":"Sunderland","abbr_name":"Sunderland"}
+{"team_id":111086,"name":"Piast Gliwice","abbr_name":"Gliwice"}
+{"team_id":101099,"name":"América de Cali","abbr_name":"América"}
+{"team_id":91,"name":"Derby County","abbr_name":"Derby"}
+{"team_id":112828,"name":"New York City FC","abbr_name":"NYCFC"}
+{"team_id":693,"name":"Chicago Fire Soccer Club","abbr_name":"Chicago"}
+{"team_id":1960,"name":"Swansea City","abbr_name":"Swansea"}
+{"team_id":111397,"name":"Melbourne Victory","abbr_name":"M. Victory"}
+{"team_id":111398,"name":"Newcastle Jets","abbr_name":"Newcastle"}
+{"team_id":112390,"name":"Al Fateh","abbr_name":"Al Fateh"}
+{"team_id":1032,"name":"Monterrey","abbr_name":"Monterrey"}
+{"team_id":1790,"name":"Portsmouth","abbr_name":"Portsmouth"}
+{"team_id":59,"name":"FC Girondins de Bordeaux","abbr_name":"Girondins"}
+{"team_id":100409,"name":"FC Augsburg","abbr_name":"Augsburg"}
+{"team_id":1917,"name":"Wigan Athletic","abbr_name":"Wigan"}
+{"team_id":229,"name":"RSC Anderlecht","abbr_name":"Anderlecht"}
+{"team_id":109,"name":"West Bromwich Albion","abbr_name":"West Brom"}
+{"team_id":1842,"name":"Cagliari","abbr_name":"Cagliari"}
+{"team_id":467,"name":"SD Eibar","abbr_name":"Eibar"}
+{"team_id":28,"name":"Hamburger SV","abbr_name":"Hamburg"}
+{"team_id":110636,"name":"Fortuna Düsseldorf","abbr_name":"Düsseldorf"}
+{"team_id":1968,"name":"Cádiz CF","abbr_name":"Cádiz"}
+{"team_id":232,"name":"Standard de Liège","abbr_name":"Standard"}
+{"team_id":100767,"name":"Spartak Moscow","abbr_name":"Spartak"}
+{"team_id":192,"name":"Chievo Verona","abbr_name":"Chievo"}
+{"team_id":17,"name":"Southampton","abbr_name":"So’ton"}
+{"team_id":1807,"name":"Sheffield Wednesday","abbr_name":"Sheff Wed"}
+{"team_id":1932,"name":"Barnsley","abbr_name":"Barnsley"}
+{"team_id":144,"name":"Fulham","abbr_name":"Fulham"}
+{"team_id":1896,"name":"SC Braga","abbr_name":"Braga"}
+{"team_id":315,"name":"CSKA Moscow","abbr_name":"CSKA"}
+{"team_id":166,"name":"Hertha BSC","abbr_name":"Berlin"}
+{"team_id":149,"name":"Lincoln City","abbr_name":"Lincoln"}
+{"team_id":112427,"name":"Western Sydney Wanderers","abbr_name":"Wanderers"}
+{"team_id":111724,"name":"Shandong Luneng Taishan","abbr_name":"Shandong"}
+{"team_id":25,"name":"Sport-Club Freiburg","abbr_name":"Freiburg"}
+{"team_id":100081,"name":"KV Kortrijk","abbr_name":"Kortrijk"}
+{"team_id":298,"name":"Rosenborg BK","abbr_name":"Rosenborg"}
+{"team_id":711,"name":"BK Häcken","abbr_name":"Häcken"}
+{"team_id":1939,"name":"Huddersfield Town","abbr_name":"Hudd'field"}
+{"team_id":1853,"name":"Levante UD","abbr_name":"Levante"}
+{"team_id":463,"name":"D. Alavés","abbr_name":"Alavés"}
+{"team_id":1808,"name":"Brighton & Hove Albion","abbr_name":"Brighton"}
+{"team_id":110093,"name":"Independiente","abbr_name":"Independ."}
+{"team_id":673,"name":"KRC Genk","abbr_name":"Genk"}
+{"team_id":1746,"name":"Empoli","abbr_name":"Empoli"}
+{"team_id":420,"name":"Górnik Zabrze","abbr_name":"Zabrze"}
+{"team_id":111774,"name":"Tianjin TEDA FC","abbr_name":"Tianjin FC"}
+{"team_id":111766,"name":"Wellington Phoenix","abbr_name":"Wellington"}
+{"team_id":1938,"name":"Peterborough United","abbr_name":"Peterboro"}
+{"team_id":110745,"name":"Jagiellonia Białystok","abbr_name":"Jagiellonia"}
+{"team_id":1806,"name":"Stoke City","abbr_name":"Stoke City"}
+{"team_id":1878,"name":"Cruz Azul","abbr_name":"Cruz Azul"}
+{"team_id":110144,"name":"Santos Laguna","abbr_name":"Santos"}
+{"team_id":689,"name":"New York Red Bulls","abbr_name":"New York"}
+{"team_id":1873,"name":"Wisła Kraków","abbr_name":"Wisła Kra."}
+{"team_id":472,"name":"UD Las Palmas","abbr_name":"Las Palmas"}
+{"team_id":1961,"name":"Cardiff City","abbr_name":"Cardiff"}
+{"team_id":674,"name":"KAA Gent","abbr_name":"Gent"}
+{"team_id":1816,"name":"Amiens SC","abbr_name":"Amiens SC"}
+{"team_id":112134,"name":"Philadelphia Union","abbr_name":"Phl. Union"}
+{"team_id":112165,"name":"Chongqing Lifan FC","abbr_name":"Chongqing"}
+{"team_id":111769,"name":"Changchun Yatai FC","abbr_name":"Changchun"}
+{"team_id":100888,"name":"CD Leganés","abbr_name":"Leganés"}
+{"team_id":89,"name":"Charlton Athletic","abbr_name":"Charlton"}
+{"team_id":111144,"name":"Seattle Sounders FC","abbr_name":"Seattle"}
+{"team_id":1906,"name":"AZ","abbr_name":"AZ"}
+{"team_id":518,"name":"Chaves","abbr_name":"Chaves"}
+{"team_id":280,"name":"Olympiacos CFP","abbr_name":"Olympiacos"}
+{"team_id":837,"name":"Dundalk","abbr_name":"Dundalk"}
+{"team_id":111065,"name":"Real Salt Lake","abbr_name":"Salt Lake"}
+{"team_id":101102,"name":"Deportivo Cali","abbr_name":"Cali"}
+{"team_id":112096,"name":"Ettifaq FC","abbr_name":"Ettifaq"}
+{"team_id":15005,"name":"SV Zulte-Waregem","abbr_name":"Waregem"}
+{"team_id":10031,"name":"Portimonense SC","abbr_name":"PSC"}
+{"team_id":687,"name":"Columbus Crew SC","abbr_name":"Columbus"}
+{"team_id":896,"name":"FC Basel","abbr_name":"Basel"}
+{"team_id":111091,"name":"Lechia Gdańsk","abbr_name":"Gdańsk"}
+{"team_id":2017,"name":"TSV Hartberg","abbr_name":"Hartberg"}
+{"team_id":691,"name":"New England Revolution","abbr_name":"N. England"}
+{"team_id":110569,"name":"Dijon FCO","abbr_name":"Dijon FCO"}
+{"team_id":480,"name":"Rayo Vallecano","abbr_name":"Rayo"}
+{"team_id":487,"name":"VfL Osnabrück","abbr_name":"Osnabrück"}
+{"team_id":242,"name":"RC Deportivo","abbr_name":"Deportivo"}
+{"team_id":379,"name":"Stade de Reims","abbr_name":"Reims"}
+{"team_id":112978,"name":"Hebei China Fortune FC","abbr_name":"CFFC"}
+{"team_id":112537,"name":"Beijing Renhe","abbr_name":"B. Renhe"}
+{"team_id":1516,"name":"FC Midtjylland","abbr_name":"Midtjyl."}
+{"team_id":68,"name":"Football Club de Metz","abbr_name":"FC Metz"}
+{"team_id":1945,"name":"Bury","abbr_name":"Bury"}
+{"team_id":15048,"name":"Tranmere Rovers","abbr_name":"Tranmere"}
+{"team_id":696,"name":"Sporting Kansas City","abbr_name":"Sporting"}
+{"team_id":101112,"name":"Vancouver Whitecaps FC","abbr_name":"Whitecaps"}
+{"team_id":1940,"name":"Mansfield Town","abbr_name":"Mansfield"}
+{"team_id":1887,"name":"Vitória Guimarães","abbr_name":"Guimarães"}
+{"team_id":101033,"name":"Atiker Konyaspor","abbr_name":"Konyaspor"}
+{"team_id":614,"name":"Athlétic Club Ajaccio","abbr_name":"AC Ajaccio"}
+{"team_id":111328,"name":"CD Palestino","abbr_name":"Palestino"}
+{"team_id":111138,"name":"Minnesota United FC","abbr_name":"Minnesota"}
+{"team_id":160,"name":"VfL Bochum 1848","abbr_name":"VfL Bochum"}
+{"team_id":112392,"name":"Al Raed","abbr_name":"Al Raed"}
+{"team_id":101104,"name":"Independiente Santa Fe","abbr_name":"Santa Fe"}
+{"team_id":171,"name":"1. FC Nürnberg","abbr_name":"Nürnberg"}
+{"team_id":705,"name":"Örebro SK","abbr_name":"Örebro"}
+{"team_id":211,"name":"GNK Dinamo Zagreb","abbr_name":"D. Zagreb"}
+{"team_id":101088,"name":"Vélez Sarsfield","abbr_name":"Vélez"}
+{"team_id":189,"name":"Bologna","abbr_name":"Bologna"}
+{"team_id":57,"name":"AJ Auxerre","abbr_name":"AJ Auxerre"}
+{"team_id":1474,"name":"Pohang Steelers","abbr_name":"Pohang"}
+{"team_id":101007,"name":"MKE Ankaragücü","abbr_name":"Ankaragücü"}
+{"team_id":169,"name":"1. FSV Mainz 05","abbr_name":"Mainz"}
+{"team_id":744,"name":"Rio Ave FC","abbr_name":"Rio Ave"}
+{"team_id":101026,"name":"Göztepe SK","abbr_name":"Göztepe"}
+{"team_id":111708,"name":"Atlético Tucumán","abbr_name":"Tucumán"}
+{"team_id":112584,"name":"CD Everton de Viña del Mar","abbr_name":"Everton"}
+{"team_id":698,"name":"Houston Dynamo","abbr_name":"Houston"}
+{"team_id":1013,"name":"San Lorenzo de Almagro","abbr_name":"San Lorenzo"}
+{"team_id":101114,"name":"Club Atlas","abbr_name":"Atlas"}
+{"team_id":110929,"name":"Kaizer Chiefs","abbr_name":"Chiefs"}
+{"team_id":111340,"name":"Akhisar Belediyespor","abbr_name":"Akhisarspor"}
+{"team_id":112516,"name":"Tondela","abbr_name":"Tondela"}
+{"team_id":1809,"name":"Toulouse Football Club","abbr_name":"TFC"}
+{"team_id":210,"name":"Stade Malherbe Caen","abbr_name":"SM Caen"}
+{"team_id":111706,"name":"Godoy Cruz","abbr_name":"Godoy Cruz"}
+{"team_id":485,"name":"Hannover 96","abbr_name":"Hannover"}
+{"team_id":110150,"name":"Querétaro","abbr_name":"Querétaro"}
+{"team_id":111657,"name":"Frosinone","abbr_name":"Frosinone"}
+{"team_id":462,"name":"R. Valladolid CF","abbr_name":"R.Valladolid"}
+{"team_id":111711,"name":"Club Atlético Huracán","abbr_name":"Huracán"}
+{"team_id":417,"name":"Molde FK","abbr_name":"Molde"}
+{"team_id":110395,"name":"Club Atlético Lanús","abbr_name":"Lanús"}
+{"team_id":433,"name":"AIK","abbr_name":"AIK"}
+{"team_id":1871,"name":"Legia Warszawa","abbr_name":"Legia"}
+{"team_id":113259,"name":"Evkur Yeni Malatyaspor","abbr_name":"Malatyaspor"}
+{"team_id":543,"name":"SSV Jahn Regensburg","abbr_name":"Regensburg"}
+{"team_id":110152,"name":"Puebla","abbr_name":"Puebla"}
+{"team_id":1913,"name":"SC Heerenveen","abbr_name":"Heerenveen"}
+{"team_id":982,"name":"FC Seoul","abbr_name":"Seoul"}
+{"team_id":110404,"name":"Club Atlético Banfield","abbr_name":"Banfield"}
+{"team_id":1882,"name":"Deportivo Toluca","abbr_name":"Toluca"}
+{"team_id":112977,"name":"Guizhou Hengfeng FC","abbr_name":"Guizhou H."}
+{"team_id":1915,"name":"FC Groningen","abbr_name":"Groningen"}
+{"team_id":62,"name":"En Avant de Guingamp","abbr_name":"EAG"}
+{"team_id":110468,"name":"Viktoria Plzeň","abbr_name":"Plzeň"}
+{"team_id":111327,"name":"CD Huachipato","abbr_name":"Huachipato"}
+{"team_id":278,"name":"AEK Athens","abbr_name":"AEK Athens"}
+{"team_id":1898,"name":"Boavista FC","abbr_name":"Boavista"}
+{"team_id":894,"name":"FC Zürich","abbr_name":"Zürich"}
+{"team_id":88,"name":"Birmingham City","abbr_name":"Birmingham"}
+{"team_id":15,"name":"Queens Park Rangers","abbr_name":"QPR"}
+{"team_id":573,"name":"Málaga CF","abbr_name":"Málaga"}
+{"team_id":112408,"name":"Al Wehda","abbr_name":"Al Wehda"}
+{"team_id":1867,"name":"Córdoba CF","abbr_name":"Córdoba"}
+{"team_id":112026,"name":"Benevento","abbr_name":"Benevento"}
+{"team_id":1750,"name":"KSV Cercle Brugge","abbr_name":"Ce. Brugge"}
+{"team_id":244,"name":"R. Zaragoza","abbr_name":"Zaragoza"}
+{"team_id":1919,"name":"Bristol City","abbr_name":"Bristol C."}
+{"team_id":14,"name":"Nottingham Forest","abbr_name":"N'm Forest"}
+{"team_id":453,"name":"RCD Mallorca","abbr_name":"Mallorca"}
+{"team_id":172,"name":"SpVgg Unterhaching","abbr_name":"Unterhaching"}
+{"team_id":322,"name":"Grasshopper Club Zürich","abbr_name":"Grasshopp."}
+{"team_id":418,"name":"Tromsø IL","abbr_name":"Tromsø"}
+{"team_id":205,"name":"Venezia","abbr_name":"Venezia"}
+{"team_id":97,"name":"Millwall","abbr_name":"Millwall"}
+{"team_id":1854,"name":"Albacete Bpie","abbr_name":"Albacete"}
+{"team_id":110765,"name":"Incheon United FC","abbr_name":"Incheon"}
+{"team_id":983,"name":"Suwon Samsung Bluewings","abbr_name":"Suwon"}
+{"team_id":112444,"name":"Hokkaido Consadole Sapporo","abbr_name":"Sapporo"}
+{"team_id":576,"name":"Holstein Kiel","abbr_name":"Kiel"}
+{"team_id":1907,"name":"Willem II","abbr_name":"Willem II"}
+{"team_id":741,"name":"Antalyaspor","abbr_name":"Antalyaspor"}
+{"team_id":112224,"name":"Melbourne City","abbr_name":"Melb. City"}
+{"team_id":12,"name":"Middlesbrough","abbr_name":"M’boro"}
+{"team_id":110839,"name":"SD Huesca","abbr_name":"Huesca"}
+{"team_id":1881,"name":"U.N.A.M.","abbr_name":"U.N.A.M."}
+{"team_id":459,"name":"R. Sporting","abbr_name":"Sporting"}
+{"team_id":113142,"name":"Alanyaspor","abbr_name":"Alanyaspor"}
+{"team_id":110406,"name":"Colón de Santa Fe","abbr_name":"Colón"}
+{"team_id":101037,"name":"Çaykur Rizespor","abbr_name":"Rizespor"}
+{"team_id":111730,"name":"Kawasaki Frontale","abbr_name":"Kawasaki"}
+{"team_id":199,"name":"Perugia","abbr_name":"Perugia"}
+{"team_id":1473,"name":"Ulsan Hyundai Horang-i","abbr_name":"Ulsan"}
+{"team_id":111400,"name":"Sydney FC","abbr_name":"Sydney"}
+{"team_id":111239,"name":"FC Ingolstadt 04","abbr_name":"Ingolstadt"}
+{"team_id":2056,"name":"Daegu FC","abbr_name":"Daegu"}
+{"team_id":1889,"name":"CF Os Belenenses","abbr_name":"Belenenses"}
+{"team_id":112670,"name":"Club Atlético Talleres","abbr_name":"Talleres"}
+{"team_id":1861,"name":"UD Almería","abbr_name":"Almería"}
+{"team_id":110373,"name":"Salerno","abbr_name":"Salerno"}
+{"team_id":100651,"name":"VVV-Venlo","abbr_name":"VVV-Venlo"}
+{"team_id":506,"name":"FC Erzgebirge Aue","abbr_name":"Aue"}
+{"team_id":113173,"name":"Östersunds FK","abbr_name":"Östersunds"}
+{"team_id":112115,"name":"Gangwon FC","abbr_name":"Gangwon"}
+{"team_id":110500,"name":"Eintracht Braunschweig","abbr_name":"Braunschw."}
+{"team_id":80,"name":"Heart of Midlothian","abbr_name":"Hearts"}
+{"team_id":1813,"name":"Chamois Niortais Football Club","abbr_name":"Chamois FC"}
+{"team_id":111716,"name":"Unión de Santa Fe","abbr_name":"Unión"}
+{"team_id":200,"name":"Pescara","abbr_name":"Pescara"}
+{"team_id":1715,"name":"FC Thun","abbr_name":"Thun"}
+{"team_id":695,"name":"FC Dallas","abbr_name":"FC Dallas"}
+{"team_id":680,"name":"Sint-Truidense VV","abbr_name":"St. Truiden"}
+{"team_id":100634,"name":"Heracles Almelo","abbr_name":"Heracles"}
+{"team_id":101148,"name":"Cerezo Osaka","abbr_name":"C-Osaka"}
+{"team_id":64,"name":"Racing Club de Lens","abbr_name":"RC Lens"}
+{"team_id":111235,"name":"1. FC Heidenheim 1846","abbr_name":"Heidenheim"}
+{"team_id":113222,"name":"Al-Hazem FC","abbr_name":"Al-Hazem"}
+{"team_id":167,"name":"KFC Uerdingen 05","abbr_name":"Uerdingen"}
+{"team_id":111707,"name":"Club Atlético Aldosivi","abbr_name":"Aldosivi"}
+{"team_id":111723,"name":"Deportivo Pasto","abbr_name":"Pasto"}
+{"team_id":111993,"name":"Cittadella","abbr_name":"Cittadella"}
+{"team_id":873,"name":"Lech Poznań","abbr_name":"Poznań"}
+{"team_id":294,"name":"ESTAC Troyes","abbr_name":"ESTAC"}
+{"team_id":10030,"name":"SC Paderborn 07","abbr_name":"Paderborn"}
+{"team_id":252,"name":"LASK Linz","abbr_name":"LASK Linz"}
+{"team_id":256,"name":"FK Austria Wien","abbr_name":"Austria"}
+{"team_id":101151,"name":"Yokohama F・Marinos","abbr_name":"Yokohama"}
+{"team_id":110911,"name":"Foggia","abbr_name":"Foggia"}
+{"team_id":230,"name":"Royal Antwerp FC","abbr_name":"Antwerp"}
+{"team_id":749,"name":"Büyükşehir Belediye Erzurumspor","abbr_name":"Erzurum BB"}
+{"team_id":111399,"name":"Perth Glory","abbr_name":"Perth"}
+{"team_id":94,"name":"Ipswich Town","abbr_name":"Ipswich"}
+{"team_id":110770,"name":"FC Sion","abbr_name":"Sion"}
+{"team_id":1569,"name":"Wisła Płock","abbr_name":"Płock"}
+{"team_id":111393,"name":"Adelaide United","abbr_name":"Adelaide"}
+{"team_id":101144,"name":"Júbilo Iwata","abbr_name":"Iwata"}
+{"team_id":1831,"name":"1. FC Union Berlin","abbr_name":"Union Ber."}
+{"team_id":260,"name":"CD Tenerife","abbr_name":"Tenerife"}
+{"team_id":2055,"name":"Sangju Sangmu FC","abbr_name":"Sangju"}
+{"team_id":477,"name":"CD Numancia","abbr_name":"Numancia"}
+{"team_id":82,"name":"Kilmarnock","abbr_name":"Kilmarnock"}
+{"team_id":1815,"name":"Clermont Foot 63","abbr_name":"Clermont"}
+{"team_id":101147,"name":"Kashima Antlers","abbr_name":"Kashima"}
+{"team_id":110930,"name":"Orlando Pirates","abbr_name":"Pirates"}
+{"team_id":110313,"name":"Accrington Stanley","abbr_name":"Accrington"}
+{"team_id":1803,"name":"Walsall","abbr_name":"Walsall"}
+{"team_id":143,"name":"Exeter City","abbr_name":"Exeter"}
+{"team_id":1798,"name":"Milton Keynes Dons","abbr_name":"MK Dons"}
+{"team_id":1880,"name":"Guadalajara","abbr_name":"Guadalaja."}
+{"team_id":267,"name":"Sparta Praha","abbr_name":"Sp. Praha"}
+{"team_id":682,"name":"KV Oostende","abbr_name":"Oostende"}
+{"team_id":101121,"name":"Club Necaxa","abbr_name":"Necaxa"}
+{"team_id":665,"name":"Vitória Setúbal","abbr_name":"Setúbal"}
+{"team_id":111019,"name":"Argentinos Juniors","abbr_name":"Argentinos"}
+{"team_id":1843,"name":"Palermo","abbr_name":"Palermo"}
+{"team_id":1884,"name":"Panathinaikos FC","abbr_name":"Panathin."}
+{"team_id":110827,"name":"R. Oviedo","abbr_name":"R. Oviedo"}
+{"team_id":110580,"name":"Rosario Central","abbr_name":"R. Central"}
+{"team_id":254,"name":"SK Rapid Wien","abbr_name":"Rapid"}
+{"team_id":112534,"name":"CD Universidad de Concepción","abbr_name":"Concepción"}
+{"team_id":742,"name":"Bursaspor","abbr_name":"Bursaspor"}
+{"team_id":1793,"name":"Reading","abbr_name":"Reading"}
+{"team_id":111575,"name":"Urawa Red Diamonds","abbr_name":"Urawa"}
+{"team_id":666,"name":"Desportivo Aves","abbr_name":"Aves"}
+{"team_id":1028,"name":"Monarcas Morelia","abbr_name":"Monarcas"}
+{"team_id":269,"name":"Brøndby IF","abbr_name":"Brøndby"}
+{"team_id":101106,"name":"Once Caldas","abbr_name":"O. Caldas"}
+{"team_id":101020,"name":"Kayserispor","abbr_name":"Kayserispor"}
+{"team_id":1456,"name":"Odds BK","abbr_name":"ODD"}
+{"team_id":110734,"name":"Crotone","abbr_name":"Crotone"}
+{"team_id":111092,"name":"Śląsk Wrocław","abbr_name":"Wrocław"}
+{"team_id":1933,"name":"Wycombe Wanderers","abbr_name":"Wycombe"}
+{"team_id":112259,"name":"AFC Wimbledon","abbr_name":"Wimbledon"}
+{"team_id":1844,"name":"Livorno","abbr_name":"Livorno"}
+{"team_id":101041,"name":"Sivasspor","abbr_name":"Sivasspor"}
+{"team_id":206,"name":"Hellas Verona","abbr_name":"Verona"}
+{"team_id":15029,"name":"Universidad de Chile","abbr_name":"U. Chile"}
+{"team_id":700,"name":"IF Elfsborg","abbr_name":"Elfsborg"}
+{"team_id":101083,"name":"Estudiantes de La Plata","abbr_name":"Estudiantes"}
+{"team_id":111779,"name":"Henan Jianye FC","abbr_name":"Henan FC"}
+{"team_id":1900,"name":"Moreirense FC","abbr_name":"Moreirense"}
+{"team_id":111022,"name":"Belgrano de Córdoba","abbr_name":"Belgrano"}
+{"team_id":101084,"name":"Gimnasia y Esgrima La Plata","abbr_name":"Gimnasia"}
+{"team_id":111395,"name":"Brisbane Roar","abbr_name":"Brisbane"}
+{"team_id":77,"name":"Aberdeen","abbr_name":"Aberdeen"}
+{"team_id":113157,"name":"Sanfrecce Hiroshima","abbr_name":"Hiroshima"}
+{"team_id":1904,"name":"NAC Breda","abbr_name":"NAC Breda"}
+{"team_id":1903,"name":"FC Utrecht","abbr_name":"Utrecht"}
+{"team_id":10019,"name":"CD Feirense","abbr_name":"Feirense"}
+{"team_id":1801,"name":"Preston North End","abbr_name":"Preston"}
+{"team_id":101105,"name":"Millonarios FC","abbr_name":"Millonar."}
+{"team_id":1893,"name":"CS Marítimo","abbr_name":"Marítimo"}
+{"team_id":209,"name":"SK Sturm Graz","abbr_name":"Sturm Graz"}
+{"team_id":1738,"name":"Havre Athletic Club","abbr_name":"Havre AC"}
+{"team_id":110502,"name":"SV Darmstadt 98","abbr_name":"Darmstadt"}
+{"team_id":110581,"name":"Patronato","abbr_name":"Patronato"}
+{"team_id":347,"name":"Lecce","abbr_name":"Lecce"}
+{"team_id":111434,"name":"Cremona","abbr_name":"Cremona"}
+{"team_id":531,"name":"SC Preußen Münster","abbr_name":"Münster"}
+{"team_id":27,"name":"FC Hansa Rostock","abbr_name":"Rostock"}
+{"team_id":2007,"name":"Sporting Lokeren","abbr_name":"Lokeren"}
+{"team_id":1891,"name":"Funchal","abbr_name":"Funchal"}
+{"team_id":217,"name":"FC Lorient","abbr_name":"FC Lorient"}
+{"team_id":113057,"name":"Al Fayha","abbr_name":"Al Fayha"}
+{"team_id":898,"name":"FC St. Gallen","abbr_name":"St. Gallen"}
+{"team_id":110066,"name":"Rayo Majadahonda","abbr_name":"Rayo M."}
+{"team_id":1971,"name":"Excelsior","abbr_name":"Excelsior"}
+{"team_id":110178,"name":"SV Sandhausen","abbr_name":"Sandhausen"}
+{"team_id":110913,"name":"Waasland-Beveren","abbr_name":"W. Beveren"}
+{"team_id":111273,"name":"Red Star FC","abbr_name":"Red Star"}
+{"team_id":1463,"name":"FK Haugesund","abbr_name":"Haugesund"}
+{"team_id":110456,"name":"Valenciennes FC","abbr_name":"VAFC"}
+{"team_id":111396,"name":"Central Coast Mariners","abbr_name":"C. Coast"}
+{"team_id":1475,"name":"Jeonnam Dragons","abbr_name":"Jeonnam"}
+{"team_id":1951,"name":"Oxford United","abbr_name":"Oxford Utd"}
+{"team_id":635,"name":"De Graafschap","abbr_name":"Graafschap"}
+{"team_id":917,"name":"Stabæk Fotball","abbr_name":"Stabæk"}
+{"team_id":561,"name":"Forest Green Rovers","abbr_name":"Forest G."}
+{"team_id":670,"name":"Sporting Charleroi","abbr_name":"Charleroi"}
+{"team_id":479,"name":"CA Osasuna","abbr_name":"Osasuna"}
+{"team_id":100805,"name":"St. Mirren","abbr_name":"St. Mirren"}
+{"team_id":111713,"name":"San Martín","abbr_name":"San Martín"}
+{"team_id":15019,"name":"Nàstic","abbr_name":"Nàstic"}
+{"team_id":112527,"name":"Patriotas Boyacá FC","abbr_name":"Patriotas"}
+{"team_id":271,"name":"Aarhus GF","abbr_name":"Aarhus"}
+{"team_id":1823,"name":"AS Nancy Lorraine","abbr_name":"ASNL"}
+{"team_id":113219,"name":"Ohod Club","abbr_name":"Ohod Club"}
+{"team_id":918,"name":"FK Bodø/Glimt","abbr_name":"Bodø/Glimt"}
+{"team_id":4,"name":"Bolton Wanderers","abbr_name":"Bolton"}
+{"team_id":110977,"name":"Unión Española","abbr_name":"Española"}
+{"team_id":469,"name":"Extremadura UD","abbr_name":"Extremadura"}
+{"team_id":112535,"name":"Unión La Calera","abbr_name":"La Calera"}
+{"team_id":110912,"name":"Padova","abbr_name":"Padova"}
+{"team_id":503,"name":"SG Dynamo Dresden","abbr_name":"Dresden"}
+{"team_id":110145,"name":"Tiburones Rojos de Veracruz","abbr_name":"Veracruz"}
+{"team_id":110831,"name":"CD Lugo","abbr_name":"Lugo"}
+{"team_id":820,"name":"Aalborg BK","abbr_name":"Aalborg"}
+{"team_id":112836,"name":"Vegalta Sendai","abbr_name":"Sendai"}
+{"team_id":110329,"name":"FC St. Pauli","abbr_name":"St. Pauli"}
+{"team_id":634,"name":"Fortuna Sittard","abbr_name":"Fortuna S."}
+{"team_id":110741,"name":"La Spezia","abbr_name":"La Spezia"}
+{"team_id":81,"name":"Hibernian","abbr_name":"Hibernian"}
+{"team_id":10032,"name":"FC Lugano","abbr_name":"Lugano"}
+{"team_id":708,"name":"Hammarby IF","abbr_name":"Hammarby"}
+{"team_id":922,"name":"Strømsgodset IF","abbr_name":"Strømsgod."}
+{"team_id":112992,"name":"Atlético Bucaramanga","abbr_name":"Bucaramanga"}
+{"team_id":1788,"name":"FC Nordsjælland","abbr_name":"Nordsjæl."}
+{"team_id":1944,"name":"Cambridge United","abbr_name":"Cambridge"}
+{"team_id":1446,"name":"AC Horsens","abbr_name":"Horsens"}
+{"team_id":112668,"name":"San Luis de Quillota","abbr_name":"San Luis"}
+{"team_id":29,"name":"1. FC Kaiserslautern","abbr_name":"K'lautern"}
+{"team_id":112579,"name":"Alianza Petrolera","abbr_name":"Petrolera"}
+{"team_id":112168,"name":"Cosenza Calcio","abbr_name":"Cosenza C."}
+{"team_id":83,"name":"Motherwell","abbr_name":"Motherwell"}
+{"team_id":112709,"name":"Club Deportes Temuco","abbr_name":"Temuco"}
+{"team_id":110482,"name":"Hallescher FC","abbr_name":"Halle"}
+{"team_id":1847,"name":"Ascoli","abbr_name":"Ascoli"}
+{"team_id":112409,"name":"Carpi","abbr_name":"Carpi"}
+{"team_id":110591,"name":"FC Carl Zeiss Jena","abbr_name":"Jena"}
+{"team_id":1914,"name":"PEC Zwolle","abbr_name":"PEC Zwolle"}
+{"team_id":101145,"name":"Kashiwa Reysol","abbr_name":"Kashiwa"}
+{"team_id":159,"name":"DSC Arminia Bielefeld","abbr_name":"Bielefeld"}
+{"team_id":111715,"name":"Club Atlético Tigre","abbr_name":"Tigre"}
+{"team_id":101150,"name":"F.C. Tokyo","abbr_name":"F.C. Tokyo"}
+{"team_id":1825,"name":"MSV Duisburg","abbr_name":"Duisburg"}
+{"team_id":100831,"name":"AD Alcorcón","abbr_name":"Alcorcón"}
+{"team_id":710,"name":"Djurgårdens IF","abbr_name":"Djurgården"}
+{"team_id":1954,"name":"Southend United","abbr_name":"Southend"}
+{"team_id":111035,"name":"Lobos B.U.A.P.","abbr_name":"Lobos"}
+{"team_id":110588,"name":"1. FC Magdeburg","abbr_name":"Magdeburg"}
+{"team_id":272,"name":"Odense Boldklub","abbr_name":"Odense"}
+{"team_id":112389,"name":"Al Faisaly","abbr_name":"Al Faisaly"}
+{"team_id":702,"name":"IFK Norrköping","abbr_name":"Norrköping"}
+{"team_id":112578,"name":"Rionegro Águilas","abbr_name":"R. Águilas"}
+{"team_id":112528,"name":"Atlético Huila","abbr_name":"Huila"}
+{"team_id":112448,"name":"V-Varen Nagasaki","abbr_name":"VV Nagasaki"}
+{"team_id":212,"name":"La Berrichonne de Châteauroux","abbr_name":"La Berri"}
+{"team_id":110746,"name":"Pogoń Szczecin","abbr_name":"Szczecin"}
+{"team_id":319,"name":"IFK Göteborg","abbr_name":"Göteborg"}
+{"team_id":112533,"name":"CD Antofagasta","abbr_name":"Antofagas."}
+{"team_id":305,"name":"Bohemian FC","abbr_name":"Bohemians"}
+{"team_id":468,"name":"Elche CF","abbr_name":"Elche"}
+{"team_id":111588,"name":"GyeongNam FC","abbr_name":"GyeongNam"}
+{"team_id":320,"name":"Malmö FF","abbr_name":"Malmö"}
+{"team_id":112391,"name":"Al Qadisiyah","abbr_name":"Qadisiyah"}
+{"team_id":2013,"name":"KAS Eupen","abbr_name":"Eupen"}
+{"team_id":110396,"name":"Newell's Old Boys","abbr_name":"Newell's"}
+{"team_id":110854,"name":"CF Reus","abbr_name":"Reus"}
+{"team_id":3,"name":"Blackburn Rovers","abbr_name":"Blackburn"}
+{"team_id":112531,"name":"Deportes Iquique","abbr_name":"Iquique"}
+{"team_id":1439,"name":"Kalmar FF","abbr_name":"Kalmar"}
+{"team_id":101149,"name":"Shimizu S-Pulse","abbr_name":"Shimizu"}
+{"team_id":112990,"name":"Al Batin","abbr_name":"Al Batin"}
+{"team_id":112093,"name":"Gamba Osaka","abbr_name":"G-Osaka"}
+{"team_id":1438,"name":"Santa Clara","abbr_name":"Santa Clara"}
+{"team_id":111822,"name":"Wolfsberger AC","abbr_name":"Wolfsberg"}
+{"team_id":165,"name":"SpVgg Greuther Fuerth","abbr_name":"Fuerth"}
+{"team_id":110747,"name":"Cracovia","abbr_name":"Cracovia"}
+{"team_id":1478,"name":"Jeju United FC","abbr_name":"Jeju"}
+{"team_id":226,"name":"FC Sochaux-Montbéliard","abbr_name":"FCSM"}
+{"team_id":1447,"name":"SønderjyskE","abbr_name":"Sønderjys."}
+{"team_id":110316,"name":"Gazélec Football Club Ajaccio","abbr_name":"Gazélec"}
+{"team_id":112260,"name":"Fleetwood Town","abbr_name":"Fleetwood"}
+{"team_id":101097,"name":"Audax Italiano","abbr_name":"Audax"}
+{"team_id":112116,"name":"CD O'Higgins","abbr_name":"O'Higgins"}
+{"team_id":1805,"name":"Grenoble Foot 38","abbr_name":"Grenoble"}
+{"team_id":1949,"name":"Scunthorpe United","abbr_name":"Scunthorpe"}
+{"team_id":550,"name":"VfR Aalen","abbr_name":"Aalen"}
+{"team_id":1929,"name":"Plymouth Argyle","abbr_name":"Plymouth"}
+{"team_id":110169,"name":"SC Fortuna Köln","abbr_name":"Fort. Köln"}
+{"team_id":112523,"name":"La Equidad","abbr_name":"La Equidad"}
+{"team_id":113161,"name":"Shonan Bellmare","abbr_name":"Shonan"}
+{"team_id":15015,"name":"Burton Albion","abbr_name":"Burton"}
+{"team_id":897,"name":"FC Luzern","abbr_name":"Luzern"}
+{"team_id":112903,"name":"Jaguares Fútbol Club","abbr_name":"Jaguares"}
+{"team_id":111714,"name":"San Martín de Tucumán","abbr_name":"CASM"}
+{"team_id":422,"name":"Cork City","abbr_name":"Cork City"}
+{"team_id":920,"name":"Vålerenga Fotball","abbr_name":"Vålerenga"}
+{"team_id":1832,"name":"Karlsruher SC","abbr_name":"Karlsruhe"}
+{"team_id":111821,"name":"FC Admira Wacker Mödling","abbr_name":"Admira"}
+{"team_id":111082,"name":"Arka Gdynia","abbr_name":"Gdynia"}
+{"team_id":100628,"name":"FC Emmen","abbr_name":"FC Emmen"}
+{"team_id":180,"name":"Dundee FC","abbr_name":"Dundee FC"}
+{"team_id":110749,"name":"Zagłębie Lubin","abbr_name":"Z. Lubin"}
+{"team_id":1797,"name":"Rotherham United","abbr_name":"Rotherham"}
+{"team_id":111560,"name":"Royal Excel Mouscron","abbr_name":"Mouscron"}
+{"team_id":1786,"name":"Randers FC","abbr_name":"Randers"}
+{"team_id":112526,"name":"Envigado FC","abbr_name":"Envigado"}
+{"team_id":112425,"name":"Hobro IK","abbr_name":"Hobro"}
+{"team_id":299,"name":"Lillestrøm SK","abbr_name":"Lillestrøm"}
+{"team_id":112199,"name":"Sarpsborg 08 FF","abbr_name":"Sarpsborg"}
+{"team_id":110197,"name":"FC Würzburger Kickers","abbr_name":"Würzburg"}
+{"team_id":753,"name":"Waterford FC","abbr_name":"Waterford"}
+{"team_id":1804,"name":"Bradford City","abbr_name":"Bradford"}
+{"team_id":100804,"name":"St. Johnstone FC","abbr_name":"St.Johnstn"}
+{"team_id":112254,"name":"Newport County","abbr_name":"Newport"}
+{"team_id":1800,"name":"Coventry City","abbr_name":"Coventry"}
+{"team_id":1802,"name":"Gillingham","abbr_name":"Gillingham"}
+{"team_id":361,"name":"Stevenage","abbr_name":"Stevenage"}
+{"team_id":112276,"name":"US Orléans Loiret Football","abbr_name":"US Orléans"}
+{"team_id":127,"name":"Shrewsbury","abbr_name":"Shrewsbury"}
+{"team_id":110890,"name":"Crawley Town","abbr_name":"Crawley"}
+{"team_id":33,"name":"TSV 1860 München","abbr_name":"TSV 1860"}
+{"team_id":111083,"name":"Korona Kielce","abbr_name":"Kielce"}
+{"team_id":111379,"name":"SG Sonnenhof Großaspach","abbr_name":"Großaspach"}
+{"team_id":100325,"name":"HJK Helsinki","abbr_name":"HJK"}
+{"team_id":1785,"name":"SV Mattersburg","abbr_name":"Mattersburg"}
+{"team_id":1962,"name":"Bristol Rovers","abbr_name":"Bristol R."}
+{"team_id":112655,"name":"Curicó Unido","abbr_name":"Curicó Un."}
+{"team_id":15009,"name":"SCR Altach","abbr_name":"Altach"}
+{"team_id":1596,"name":"GIF Sundsvall","abbr_name":"Sundsvall"}
+{"team_id":2045,"name":"FC Wacker Innsbruck","abbr_name":"Innsbruck"}
+{"team_id":184,"name":"Hamilton Academical FC","abbr_name":"Hamilton"}
+{"team_id":111089,"name":"Zagłębie Sosnowiec","abbr_name":"Zagłębie S"}
+{"team_id":1445,"name":"Esbjerg fB","abbr_name":"Esbjerg"}
+{"team_id":142,"name":"Doncaster Rovers","abbr_name":"Doncaster"}
+{"team_id":1955,"name":"Rochdale","abbr_name":"Rochdale"}
+{"team_id":1926,"name":"Blackpool","abbr_name":"Blackpool"}
+{"team_id":1920,"name":"Oldham Athletic","abbr_name":"Oldham"}
+{"team_id":112200,"name":"Ranheim Fotball","abbr_name":"Ranheim TF"}
+{"team_id":110592,"name":"FSV Zwickau","abbr_name":"FSV Zwickau"}
+{"team_id":112505,"name":"Miedź Legnica","abbr_name":"Miedź L."}
+{"team_id":113459,"name":"Kristiansund BK","abbr_name":"Kristian."}
+{"team_id":822,"name":"Vejle Boldklub","abbr_name":"Vejle"}
+{"team_id":1935,"name":"Colchester United","abbr_name":"Colchester"}
+{"team_id":113458,"name":"IK Sirius","abbr_name":"Sirius"}
+{"team_id":112019,"name":"Boyacá Chicó FC","abbr_name":"B. Chicó"}
+{"team_id":306,"name":"Shamrock Rovers","abbr_name":"Shamrock"}
+{"team_id":1937,"name":"Notts County","abbr_name":"Notts Co"}
+{"team_id":1524,"name":"IK Start","abbr_name":"Start"}
+{"team_id":92,"name":"Grimsby Town","abbr_name":"Grimsby"}
+{"team_id":1934,"name":"Swindon Town","abbr_name":"Swindon"}
+{"team_id":111660,"name":"Vendsyssel FF","abbr_name":"Vendsyssel"}
+{"team_id":621,"name":"Livingston FC","abbr_name":"Livingston"}
+{"team_id":110597,"name":"SV Meppen","abbr_name":"Meppen"}
+{"team_id":1930,"name":"Northampton Town","abbr_name":"N'hampton"}
+{"team_id":110700,"name":"VfL Sportfreunde Lotte","abbr_name":"Lotte"}
+{"team_id":1936,"name":"Cheltenham Town","abbr_name":"Cheltenham"}
+{"team_id":112075,"name":"SKN St. Pölten","abbr_name":"St. Pölten"}
+{"team_id":1757,"name":"Sandefjord Fotball","abbr_name":"Sandefjord"}
+{"team_id":423,"name":"St. Patrick's Athletic","abbr_name":"St. Pats"}
+{"team_id":1480,"name":"Carlisle United","abbr_name":"Carlisle"}
+{"team_id":1928,"name":"Port Vale","abbr_name":"Port Vale"}
+{"team_id":162,"name":"FC Energie Cottbus","abbr_name":"FC Energie"}
+{"team_id":113876,"name":"Dalkurd FF","abbr_name":"Dalkurd FF"}
+{"team_id":703,"name":"Trelleborgs FF","abbr_name":"Trelleborg"}
+{"team_id":357,"name":"Morecambe","abbr_name":"Morecambe"}
+{"team_id":112970,"name":"Leones FC","abbr_name":"Leones FC"}
+{"team_id":113948,"name":"AS Béziers","abbr_name":"AS Béziers"}
+{"team_id":346,"name":"Yeovil Town","abbr_name":"Yeovil"}
+{"team_id":445,"name":"Derry City","abbr_name":"Derry City"}
+{"team_id":121,"name":"Crewe Alexandra","abbr_name":"Crewe"}
+{"team_id":111705,"name":"IF Brommapojkarna","abbr_name":"Brommapoj."}
+{"team_id":563,"name":"Sligo Rovers","abbr_name":"Sligo"}
+{"team_id":1959,"name":"Macclesfield Town","abbr_name":"Macclesf."}
+{"team_id":111285,"name":"Limerick FC","abbr_name":"Limerick"}
+{"team_id":838,"name":"Bray Wanderers","abbr_name":"Bray"}
