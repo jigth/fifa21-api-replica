@@ -9,7 +9,7 @@ export function FifaPagination(props) {
                 <Pagination.Item
                     key={number}
                     active={number === active}
-                    onClick={() => props.setActiveItem(number)}
+                    onClick={() => {props.setActiveItem(number)}}
                 >
                     {number}
                 </Pagination.Item>

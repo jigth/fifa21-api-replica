@@ -2,7 +2,7 @@ import { InputGroup, FormControl, Button } from "react-bootstrap";
 
 export function SearchbarPlayers(props) {
     return (
-        <section>
+        <section className="mb-5">
             <InputGroup className="w-50 mt-4" style={{ margin: "0 auto" }}>
                 <InputGroup.Text id="items-searchbar">Search Players</InputGroup.Text>
                 <FormControl

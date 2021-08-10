@@ -120,7 +120,10 @@ export function PlayersPage(props) {
     useEffect(() => {
         (async () => {
             try {
-                await searchAndUpdatePlayers(searchQuery);
+                const data = await searchAndUpdatePlayers(searchQuery);
+                if (data !== undefined) {
+                    updatePlayers(data.Players, data.totalPages);
+                }
             } catch (error) {
                 console.error("Error while requesting Players", error);
             }
