@@ -43,12 +43,9 @@ playerController.getPlayersByName = async (req, res) => {
     });
 
     const playersData = players.map(player => formatPlayerResponse(player));
-
-    const totalPages = playersData.length >= resultsPerPage ? 
-                Math.ceil ( playersData.length / resultsPerPage )
-              : playersData.length;
-
+    const totalPages = Math.ceil ( playersData.length / resultsPerPage );
     const thePage = parseInt(page) || 1;
+
     const playersResponse = {
         'Page': thePage,
         'totalPages': totalPages,

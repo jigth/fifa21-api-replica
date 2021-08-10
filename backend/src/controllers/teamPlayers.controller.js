@@ -41,9 +41,7 @@ teamPlayersController.getPlayersByTeam = async function (req, res) {
         return { name: playerName, position, nation };
     });
 
-    const totalPages = playersData.length >= resultsPerPage ? 
-                Math.ceil ( playersData.length / resultsPerPage )
-              : playersData.length;
+    const totalPages = Math.ceil ( playersData.length / resultsPerPage );
 
     const thePage = parseInt(Page) || 1;
     const playersResponse = {

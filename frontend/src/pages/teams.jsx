@@ -8,9 +8,6 @@ import { FifaPagination } from "../components/shared/fifa-pagination";
 import { SearchbarTeams } from "../components/searchbar-teams";
 import { useEffect, useState } from "react";
 
-
-
-
 export function TeamsPage(props) {
     const [items, setItems] = useState([]);
     const [activeItem, setActiveItem] = useState(getActiveItem());
