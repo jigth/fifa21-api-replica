@@ -12,10 +12,7 @@ teamController.getAllTeams = async function (req, res) {
         attributes: ['team_id', 'name', 'abbr_name'],
     });
 
-    const totalPages = teams.length >= resultsPerPage ? 
-                Math.ceil ( teams.length / resultsPerPage )
-              : teams.length;
-
+    const totalPages = Math.ceil(teams.length / resultsPerPage);
     const thePage = parseInt(page) || 1;
     const teamsResponse = {
         'Page': thePage,
@@ -41,10 +38,7 @@ teamController.getTeamsByName = async function (req, res) {
     });
 
     const teamsData = teams.map(team => team.dataValues);
-    const totalPages = teamsData.length >= resultsPerPage ? 
-                Math.ceil ( teamsData.length / resultsPerPage )
-              : teamsData.length;
-
+    const totalPages = Math.ceil(teams.length / resultsPerPage);
     const thePage = parseInt(page) || 1;
     const teamsResponse = {
         'Page': thePage,

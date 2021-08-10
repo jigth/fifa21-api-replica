@@ -11,10 +11,8 @@ export function Team(props) {
                 alt="image-300x300"
             />
             <Card.Body>
-                <Card.Text>
-                    <p><strong>Name: </strong> {props.fullname}</p>
-                    <p><strong>Abbr Name: </strong> {props.abbr_name}</p>
-                </Card.Text>
+                <p><strong>Name: </strong> {props.fullname}</p>
+                <p><strong>Abbr Name: </strong> {props.abbr_name}</p>
             </Card.Body>
         </Card>
     );

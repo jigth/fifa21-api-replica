@@ -1,0 +1,9 @@
+{
+  "short_name": "Fifa21 App",
+  "name": "Fifa21 Ultimate Team",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
