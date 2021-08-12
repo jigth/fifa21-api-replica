@@ -18,6 +18,9 @@ app.use( express.json() );
 
 
 // Routes
+app.get("/", (req, res) =>
+    res.json({ response: "Welcome to fifa21 ultimate team backend" })
+);
 app.use(BASE_API_ROUTE + 'players', players);
 app.use(BASE_API_ROUTE + 'team', teamPlayers);
 app.use(BASE_API_ROUTE + 'teams', teams);

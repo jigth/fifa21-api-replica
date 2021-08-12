@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "fifa21-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend based in Fifa 21 Ultimate Team game",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "jigth",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
