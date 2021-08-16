@@ -42,14 +42,16 @@ teamPlayersController.getPlayersByTeam = async function (req, res) {
     });
 
     const totalPages = Math.ceil ( playersData.length / resultsPerPage );
-
     const thePage = parseInt(Page) || 1;
+    const thePlayers = getPageFromArray( playersData, thePage, resultsPerPage );
+    const theItems = Math.min(resultsPerPage, thePlayers.length);
+
     const playersResponse = {
         'Page': thePage,
         'totalPages': totalPages,
-        'Items': resultsPerPage,
+        'Items': theItems,
         'totalItems': playersData.length,
-        'Players': getPageFromArray( playersData, thePage, resultsPerPage )
+        'Players': thePlayers
     };
 
     res.json(playersResponse);

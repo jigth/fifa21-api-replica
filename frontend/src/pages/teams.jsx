@@ -42,9 +42,11 @@ export function TeamsPage(props) {
         };
     }
 
-    function updateTeams(Teams, totalPages) {
-        setItems(Teams);
-        setLastPage(totalPages);
+    function updateTeams(data) {
+        if (data !== undefined && data.Teams !== undefined) {
+            setItems(data.Teams);
+            setLastPage(data.totalPages);
+        }
     }
 
     async function getTeamsData(page, query) {
@@ -60,10 +62,10 @@ export function TeamsPage(props) {
 
     async function searchAndUpdateTeams(query) {
         try {
+            query = query.trim();
             const page = activeItem;
             let data = await getTeamsData(page, query);
-            const { Teams, totalPages } = data;
-            updateTeams(Teams, totalPages);
+            updateTeams(data);
         } catch (error) {
             console.error(error);
         }
@@ -74,9 +76,7 @@ export function TeamsPage(props) {
         (async () => {
             try {
                 const data = await searchAndUpdateTeams(searchQuery);
-                if (data !== undefined) {
-                    updateTeams(data.Teams, data.totalPages);
-                }
+                updateTeams(data);
             } catch (error) {
                 console.error("Error while requesting Teams", error);
             }

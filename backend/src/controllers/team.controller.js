@@ -14,12 +14,15 @@ teamController.getAllTeams = async function (req, res) {
 
     const totalPages = Math.ceil(teams.length / resultsPerPage);
     const thePage = parseInt(page) || 1;
+    const theTeams = getPageFromArray( teams, thePage, resultsPerPage );
+    const theItems = Math.min(resultsPerPage, theTeams.length);
+
     const teamsResponse = {
         'Page': thePage,
         'totalPages': totalPages,
-        'Items': resultsPerPage,
+        'Items': theItems,
         'totalItems': teams.length,
-        'Teams': getPageFromArray( teams, thePage, resultsPerPage )
+        'Teams': theTeams
     };
     res.json(teamsResponse);
 }
@@ -40,12 +43,15 @@ teamController.getTeamsByName = async function (req, res) {
     const teamsData = teams.map(team => team.dataValues);
     const totalPages = Math.ceil(teams.length / resultsPerPage);
     const thePage = parseInt(page) || 1;
+    const theTeams = getPageFromArray( teams, thePage, resultsPerPage );
+    const theItems = Math.min(resultsPerPage, theTeams.length);
+
     const teamsResponse = {
         'Page': thePage,
         'totalPages': totalPages,
-        'Items': resultsPerPage,
+        'Items': theItems,
         'totalItems': teamsData.length,
-        'Teams': getPageFromArray( teamsData, thePage, resultsPerPage )
+        'Teams': theTeams
     };
 
     res.json(teamsResponse);

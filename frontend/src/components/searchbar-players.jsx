@@ -1,6 +1,12 @@
 import { InputGroup, FormControl, Button } from "react-bootstrap";
 
 export function SearchbarPlayers(props) {
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            props.searchFunction(props.searchQuery)
+        }
+    }
+    
     return (
         <section className="mb-5">
             <InputGroup className="w-50 mt-4" style={{ margin: "0 auto" }}>
@@ -10,6 +16,7 @@ export function SearchbarPlayers(props) {
                     aria-label="searchbarPlayers"
                     aria-describedby="items-searchbar"
                     onChange={props.handleSearchChange}
+                    onKeyDown={handleKeyDown}
                 />
             </InputGroup>
             <InputGroup className="w-50 my-2" style={{ margin: "0 auto" }}>
@@ -43,7 +50,7 @@ export function SearchbarPlayers(props) {
             <InputGroup>
                 <Button
                     style={{ width: "50%", margin: "0 auto" }}
-                    onClick={async () => props.searchFunction(props.searchQuery)}
+                    onClick={async () => await props.searchFunction(props.searchQuery)}
                 >
                     Search
                 </Button>

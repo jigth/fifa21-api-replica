@@ -5,11 +5,11 @@ export function FifaNavbar() {
     return (
             <Navbar className="mb-5" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Jigth's Fifa 21 site</Navbar.Brand>
+                    <Navbar.Brand href="/">Jigth's Fifa 21 site</Navbar.Brand>
                     <Nav className="ml-auto">
-                        <Link to="/"><Nav.Link href="/">Home</Nav.Link></Link>
-                        <Link to="/players"><Nav.Link href="/">Players</Nav.Link></Link>
-                        <Link to="/teams"><Nav.Link href="/">Teams</Nav.Link></Link>
+                        <Link to="/" style={{textDecoration: 'none'}}><span className="nav-link">Home</span></Link>
+                        <Link to="/players" style={{textDecoration: 'none'}}><span className="nav-link">Players</span></Link>
+                        <Link to="/teams" style={{textDecoration: 'none'}}><span className="nav-link">Teams</span></Link>
                     </Nav>
                 </Container>
             </Navbar>

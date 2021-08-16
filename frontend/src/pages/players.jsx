@@ -85,9 +85,11 @@ export function PlayersPage(props) {
         };
     }
 
-    function updatePlayers(Players, totalPages) {
-        setItems(Players);
-        setLastPage(totalPages);
+    function updatePlayers(data) {
+        if (data !== undefined && data.Players !== undefined) {
+          setItems(data.Players);
+          setLastPage(data.totalPages);
+        }
     }
 
     async function getPlayersData(page, query, order) {
@@ -106,11 +108,11 @@ export function PlayersPage(props) {
 
     async function searchAndUpdatePlayers(query) {
         try {
+            query = query.trim();
             const page = activeItem;
             const order = orderValue;
             let data = await getPlayersData(page, query, order);
-            const { Players, totalPages } = data;
-            updatePlayers(Players, totalPages);
+            updatePlayers(data);
         } catch (error) {
             console.error(error);
         }
@@ -121,9 +123,7 @@ export function PlayersPage(props) {
         (async () => {
             try {
                 const data = await searchAndUpdatePlayers(searchQuery);
-                if (data !== undefined) {
-                    updatePlayers(data.Players, data.totalPages);
-                }
+                updatePlayers(data);
             } catch (error) {
                 console.error("Error while requesting Players", error);
             }
