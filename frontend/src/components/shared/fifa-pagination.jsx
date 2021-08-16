@@ -10,7 +10,7 @@ export function FifaPagination(props) {
         let page = pagesToShow[i];
         let item = "";
         if (isElipsis(page)) {
-          item = <Pagination.Ellipsis />;
+          item = <Pagination.Ellipsis key={i+1} />;
         } else {
           item = (
             <Pagination.Item

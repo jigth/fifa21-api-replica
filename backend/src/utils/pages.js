@@ -7,7 +7,7 @@ function getPageFromArray(array, page, resultsPerPage) {
     }
 
     try {
-        return paginatedArray[page];
+        return paginatedArray[page] || [];
     } catch (error) {
         console.error(error);
     }
