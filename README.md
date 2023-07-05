@@ -6,7 +6,7 @@ API Replica system based on the game "Fifa 21 Ultimate Team" (Script+Backend+Fro
 
 ### Easy navigation:
 
-![./gifs/fifa-navigation.gif](navigation gif)
+![navigation gif](./gifs/fifa-navigation.gif)
 
 Easy to use with mouse and/or keyboard.
 
